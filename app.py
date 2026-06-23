@@ -41,7 +41,7 @@ def adicionar_mensagem(username, mensagem):
 
 
 # --- Interface principal ---
-st.title("💬 Salinhan de bate-papo")
+st.title("💬 Salinha de bate-papo")
 
 username = st.sidebar.text_input(
     "Nome de usuário",
