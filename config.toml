@@ -1,0 +1,23 @@
+[theme]
+# Define as cores principais da interface do aplicativo
+primaryColor = "#FF4B4B"          # Cor dos botões, sliders e elementos interativos
+backgroundColor = "#FFFFFF"       # Cor de fundo do corpo principal do app
+secondaryBackgroundColor = "#bdc5cb" # Cor de fundo da barra lateral e caixas de entrada
+textColor = "#060239"             # Cor dos textos principais
+font = "sans serif"               # Opções: "sans serif", "serif" ou "mono"
+
+[server]
+# Configurações de rede e infraestrutura do servidor
+port = 8501                       # Porta padrão que o Streamlit irá rodar
+headless = true                   # Evita abrir o navegador automaticamente ao iniciar
+maxUploadSize = 200               # Limite máximo para upload de arquivos (em MB)
+enableCORS = false                # Desativa o CORS se necessário para APIs externas
+
+[client]
+# Ajustes voltados para o comportamento da página no navegador
+showErrorDetails = true           # Mostra detalhes de erros do Python diretamente na tela
+toolbarMode = "auto"              # Controla a visibilidade do menu (auto, developer, viewer, minimal)
+
+[browser]
+# Configurações sobre como o navegador interage com o app
+gatherUsageStats = false          # Desativa o envio de estatísticas de uso para o Streamlit
